@@ -9,7 +9,7 @@ namespace Assignment.StudentSolution.LCT04
         /// name เป็น public จึงสามารถเข้าถึงได้จากภายนอก class
         /// รวมถึงภายใน method ของ class ที่สืบทอด Animal ไปด้วย
         /// </summary>
-        protected string name = "";
+        public string name = "";
 
         /// <summary>
         /// specie เป็น protected จึงสามารถเข้าถึงได้จากภายใน class ที่สืบทอด Animal
@@ -76,7 +76,7 @@ namespace Assignment.StudentSolution.LCT04
             // student code start HERE ...
             // 1. พิมพ์ dog.name ออกมาในข้อความ $"my name is {dog.name}"
             // ...
-
+            Debug.Log($"my name is {dog.name}");
             // student code ends HERE
 
             // NOTE #1
